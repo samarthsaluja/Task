@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.trip .content h1
+{
+text-align: center;
+margin-bottom: 15px;
+color: #e95950;
+text-transform:uppercase;
+}
+
+.trip .content p
+{
+    text-align: center;
+    margin-top: 20px;
+    color:grey;
+}
+
+.image-col{
+    width: 60%;
+    align-items: center;
+}
+.trip .image-gallery{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+position: relative;
+left: 357px;
+top: 20px;
+gap: 1rem;
+}
+
+.image-gallery img{
+    max-width: 300px;
+}
+
+figure
+{
+    overflow: hidden;
+    max-width: 300px;
+}
+
+img
+{
+    transition: all 0.5s linear;
+}
+
+img:hover
+{
+    transform: scale(1.3);
+}
+
+.image-gallery span
+{
+    position: relative;
+    left: -300px;
+    color: #fff;
+    bottom: -21px;
+}
