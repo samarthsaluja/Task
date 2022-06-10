@@ -1,62 +1,41 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.trip .content h1
-{
-text-align: center;
-margin-bottom: 15px;
-color: #e95950;
-text-transform:uppercase;
+.card-img{
+    height: 500px;
 }
 
-.trip .content p
-{
-    text-align: center;
-    margin-top: 20px;
-    color:grey;
+.card-img-overlay img{
+    margin-left: 29px;
 }
 
-.image-col{
-    width: 60%;
-    align-items: center;
-}
-.trip .image-gallery{
-display: flex;
-flex-wrap: wrap;
-width: 100%;
-position: relative;
-left: 357px;
-top: 20px;
-gap: 1rem;
+.card-img-overlay  .card-title{
+    margin-left: 31px;
+    margin-top: 113px;
 }
 
-.image-gallery img{
-    max-width: 300px;
+.card-img-overlay .card-text{
+    margin-left: 31px;
+    opacity: 1.5;
 }
 
-figure
-{
-    overflow: hidden;
-    max-width: 300px;
+.pictures button{
+    margin-left:31px;
 }
 
-img
-{
-    transition: all 0.5s linear;
+.pictures h6{
+    margin-left: 203px;
+    margin-top: -45px;
 }
 
-img:hover
-{
-    transform: scale(1.3);
+.pictures p{
+    margin-left: 153px;
+    /* margin-bottom: -65px; */
+    margin-top: -33px;
 }
 
-.image-gallery span
-{
-    position: relative;
-    left: -300px;
-    color: #fff;
-    bottom: -21px;
+.content p{
+margin-left: 22px;
+}
+
+.content h6{
+    margin-left: 71px;
+    margin-top: -44px;
 }
